@@ -22,6 +22,8 @@ import {MatButtonModule} from "@angular/material/button";
 import { ModalTalleresComponent } from './pages/dashboard/modal-talleres/modal-talleres.component';
 import { ModalEstudiantesTalleresComponent } from './pages/dashboard/modal-estudiantes-talleres/modal-estudiantes-talleres.component';
 import { ModalEncuestasTalleresComponent } from './pages/dashboard/modal-encuestas-talleres/modal-encuestas-talleres.component';
+import { ModalPedidosComponent } from './pages/dashboard/modal-pedidos/modal-pedidos.component';
+import { ModalMeditacionesComponent } from './pages/dashboard/modal-meditaciones/modal-meditaciones.component';
 
 /*POSIBLEMENTE LOS ERROS DEL DISEÑO ES IMPORTAAAAR ACA IMPORTAR IMPORTANTE*/
 
@@ -34,6 +36,8 @@ import { ModalEncuestasTalleresComponent } from './pages/dashboard/modal-encuest
     ModalTalleresComponent,
     ModalEstudiantesTalleresComponent,
     ModalEncuestasTalleresComponent,
+    ModalPedidosComponent,
+    ModalMeditacionesComponent,
   ],
     imports: [
         BrowserModule,

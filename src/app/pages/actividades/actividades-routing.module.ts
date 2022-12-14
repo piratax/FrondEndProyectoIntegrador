@@ -10,7 +10,7 @@ import {CarrerasComponent} from "./carreras/carreras.component";
 import {MeditacionComponent} from "./meditacion/meditacion.component";
 import {EncuestasComponent} from "./encuestas/encuestas.component";
 
-/*Es un modulo, es como un archivo javascript*/
+/*Es un modulo, sirve para enrutar los componentes*/
 const routes: Routes = [
   {
     path: '',

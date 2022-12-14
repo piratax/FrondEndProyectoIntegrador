@@ -1,34 +1,48 @@
-<mat-card>
+<mat-card class="menu">
   <mat-action-list>
     <button routerLink = "/admin" mat-list-item>
-      <mat-icon mat-list-icon>home</mat-icon> Inicio
+      <a class="navbar-brand " href="/admin"><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/2499/2499129.png" alt="..."></a>
+      Principal
     </button>
 
     <button mat-list-item routerLink = "/admin/actividades/programas">
-      <mat-icon>add_circle</mat-icon>Programas
+      <a class="navbar-brand " href="/admin/actividades/programas"><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1497/1497835.png" alt="..."></a>
+      Programas
     </button>
     <button mat-list-item routerLink = "/admin/actividades/talleres">
-      <mat-icon>library_add</mat-icon>Talleres
+      <a class="navbar-brand " href="/admin/actividades/talleres"><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/2117/2117103.png" alt="..."></a>
+      Talleres
     </button>
     <button mat-list-item routerLink = "/admin/actividades/materiales">
-      <mat-icon>library_books</mat-icon>Materiales
+      <a class="navbar-brand " href="/admin/actividades/materiales"><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/7438/7438542.png" alt="..."></a>
+      Materiales
     </button>
 
     <button mat-list-item routerLink = "/admin/actividades/personas">
-      <mat-icon>face</mat-icon>Personas
+      <a class="navbar-brand " href="/admin/actividades/personas"><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/2640/2640788.png" alt="..."></a>
+      Personas
     </button>
     <button mat-list-item routerLink = "/admin/actividades/carreras">
-      <mat-icon>work</mat-icon>Carreras
+      <a class="navbar-brand " href="admin/actividades/carreras"><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/5231/5231951.png" alt="..."></a>
+      Facultades
     </button>
     <button mat-list-item routerLink = "/admin/actividades/meditaciones">
-      <mat-icon>file_copy</mat-icon>Meditación
-    </button>
-    <button mat-list-item routerLink = "/admin/actividades/encuestas">
-      <mat-icon>assignment</mat-icon>Generar encuesta
+      <a class="navbar-brand " href=""><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/2146/2146434.png" alt="..."></a>
+      Pedidos de Oracion
     </button>
 
-    <button mat-list-item routerLink = "/">
-      <mat-icon mat-list-icon>logout</mat-icon>Salir
+    <button mat-list-item routerLink = "/admin/actividades/meditaciones">
+      <a class="navbar-brand " href="/admin/actividades/meditaciones"><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1407/1407192.png" alt="..."></a>
+      Meditación
+    </button>
+
+    <button mat-list-item routerLink = "/admin/actividades/encuestas">
+      <a class="navbar-brand " href="/admin/actividades/encuestas"><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/4325/4325535.png" alt="..."></a>
+      Generar encuesta
+    </button>
+
+    <button mat-list-item routerLink = "/">      <a class="navbar-brand " href="/admin/actividades/encuestas"><img width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/3094/3094700.png" alt="..."></a>
+    Salir
     </button>
   </mat-action-list>
 </mat-card>

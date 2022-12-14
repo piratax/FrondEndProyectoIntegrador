@@ -1,16 +1,18 @@
-<app-header></app-header>
-<div class = "bootstrap-wrapper">
+<app-header></app-header>  <!-- Encabezado -->
+<div class = "bootstrap-wrapper">  <!-- Principal -->
   <div class = "container-fluid">
     <div class = "row">
-      <div class = "col-md-3">
-        <app-sidebar></app-sidebar>
+
+      <div class = "col-md-2  ">
+        <app-sidebar></app-sidebar> <!-- Barra de Menu -->
       </div>
 
-      <div class = "col-md-9 mt-3">
-        <router-outlet></router-outlet>
+      <div class = "col-md-9 mt-3 ">
+        <router-outlet></router-outlet> <!-- Parte a mostrar -->
       </div>
+
     </div>
   </div>
 </div>
 
-<app-footer></app-footer>
+<app-footer></app-footer> <!-- Pie de Pagina -->
